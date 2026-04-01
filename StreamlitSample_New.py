@@ -66,7 +66,7 @@ def input_page():
     st.header("Plan & Formulary")
     program = st.radio(
         "Formulary Type",
-        ["Open Formulary", "Managed Formulary (DTF)"]
+        ["Baseline Plan", "Managed Formulary (DTF)"]
     )
 
     plan_config = {}
