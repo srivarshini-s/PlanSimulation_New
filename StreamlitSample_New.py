@@ -70,7 +70,7 @@ def input_page():
     )
 
     plan_config = {}
-    if program == "Managed Formulary (DTF)":
+    if program == "Simulated Plan (Managed(DTF))":
         selected_plan = st.radio("Choose Plan", ["Plan A", "Plan B"], horizontal=True)
         brand_to_generic = st.checkbox("Branded → Generic")
         bio_to_biosimilar = st.checkbox("Biologic → Biosimilar")
